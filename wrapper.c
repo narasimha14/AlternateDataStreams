@@ -22,5 +22,6 @@ int main(int argc, char *argv[]){
     system(command3);
     system(command4);
     system(command5);
+    system(command6);
     
 }
